@@ -1,0 +1,54 @@
+
+
+
+.banner{
+    background-image: url('../Images/banner.png');
+
+}
+.container{
+    border: 2px solid fuchsia;
+    display: flex;
+    /* justify-content: space-between;
+    align-items: center; */
+    /* flex-direction: row-reverse; */
+    height: 250px;
+    flex-wrap: wrap-reverse;
+}
+.box{
+    border: 2px dashed greenyellow;
+    height: 50px;
+    width: 50px;
+}
+.Introduction{
+    background-color: blue;
+    height: 500px;
+    width: 80%;
+    margin: 50px auto;
+    text-align: justify;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+   /* padding: 0 150px; */
+}
+h3{
+    color: white;
+}
+/* p{
+    color: white;
+} */
+.Pointed{
+    background-color: red;
+    height: 350px;
+    width: 80%;
+    margin: 50px auto;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 150px;
+}
